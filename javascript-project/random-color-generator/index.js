@@ -8,6 +8,7 @@ var changeColor=document.querySelector('body');
 
 clickBtn.addEventListener('click', clickMe);
 function clickMe(){
+    //randomNumbefr is storing the getRandomNumber function and returning rndom number every time the function is called.
     const randomNumber=getRandomNumber();
     randomColor.innerHTML=colorName[randomNumber];
     changeColor.style.backgroundColor=colorName[randomNumber];
