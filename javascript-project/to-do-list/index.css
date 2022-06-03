@@ -1,0 +1,15 @@
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.child{
+    text-align: center;
+    height: 30%;
+    width: 50%;
+}
+.todos{
+    margin-left: -15%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
